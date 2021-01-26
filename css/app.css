@@ -33,7 +33,13 @@
   color: white;
 }
 
+.koko{
+  z-index: 999;
+}
 
+.sidenav-overlay {
+  position: fixed;
+}
 
 h2 {
   margin: 0;
