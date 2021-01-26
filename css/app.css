@@ -1,0 +1,58 @@
+.section-margin {
+  margin-top: 120px;
+}
+
+.separation {
+  display: block;
+  margin-left: initial;
+  height: 4px;
+  border-radius: 5px;
+  color: #839D2D;
+  background-color: #839D2D;
+  width: 20%;
+  border: none;
+}
+
+.fond-header {
+  /* background: #263238; */
+  padding-top : 120px;
+  padding-bottom : 120px;
+}
+
+.fond-header > * {
+  /* color: white; */
+}
+
+.fond-header-unreal {
+  background: black;
+  padding-top : 120px;
+  padding-bottom : 120px;
+}
+
+.fond-header-unreal > * {
+  color: white;
+}
+
+
+
+h2 {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.photo-margin {
+  margin-bottom: 20px;
+}
+
+
+/* For width 400px and larger: */
+@media only screen and (max-width: 700px) {
+
+  .coucou {
+     background-image: url('../assets/3.jpg');
+  }
+}
